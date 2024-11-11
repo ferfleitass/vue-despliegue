@@ -1,0 +1,12 @@
+// vite.config.js
+import { defineConfig } from "file:///C:/Users/ferna/vue-despliegue/node_modules/vite/dist/node/index.js";
+import vue from "file:///C:/Users/ferna/vue-despliegue/node_modules/@vitejs/plugin-vue/dist/index.mjs";
+import { ghPages } from "file:///C:/Users/ferna/vue-despliegue/node_modules/vite-plugin-gh-pages/dist/index.js";
+var vite_config_default = defineConfig({
+  plugins: [vue(), ghPages()],
+  base: "vue-despliegue"
+});
+export {
+  vite_config_default as default
+};
+//# sourceMappingURL=data:application/json;base64,ewogICJ2ZXJzaW9uIjogMywKICAic291cmNlcyI6IFsidml0ZS5jb25maWcuanMiXSwKICAic291cmNlc0NvbnRlbnQiOiBbImNvbnN0IF9fdml0ZV9pbmplY3RlZF9vcmlnaW5hbF9kaXJuYW1lID0gXCJDOlxcXFxVc2Vyc1xcXFxmZXJuYVxcXFx2dWUtZGVzcGxpZWd1ZVwiO2NvbnN0IF9fdml0ZV9pbmplY3RlZF9vcmlnaW5hbF9maWxlbmFtZSA9IFwiQzpcXFxcVXNlcnNcXFxcZmVybmFcXFxcdnVlLWRlc3BsaWVndWVcXFxcdml0ZS5jb25maWcuanNcIjtjb25zdCBfX3ZpdGVfaW5qZWN0ZWRfb3JpZ2luYWxfaW1wb3J0X21ldGFfdXJsID0gXCJmaWxlOi8vL0M6L1VzZXJzL2Zlcm5hL3Z1ZS1kZXNwbGllZ3VlL3ZpdGUuY29uZmlnLmpzXCI7aW1wb3J0IHsgZGVmaW5lQ29uZmlnIH0gZnJvbSAndml0ZSdcbmltcG9ydCB2dWUgZnJvbSAnQHZpdGVqcy9wbHVnaW4tdnVlJ1xuaW1wb3J0IHsgZ2hQYWdlcyB9IGZyb20gJ3ZpdGUtcGx1Z2luLWdoLXBhZ2VzJ1xuXG4vLyBodHRwczovL3ZpdGUuZGV2L2NvbmZpZy9cbmV4cG9ydCBkZWZhdWx0IGRlZmluZUNvbmZpZyh7XG4gIHBsdWdpbnM6IFt2dWUoKSwgZ2hQYWdlcygpXSxcbiAgYmFzZTogXCJ2dWUtZGVzcGxpZWd1ZVwiXG59KVxuIl0sCiAgIm1hcHBpbmdzIjogIjtBQUFpUixTQUFTLG9CQUFvQjtBQUM5UyxPQUFPLFNBQVM7QUFDaEIsU0FBUyxlQUFlO0FBR3hCLElBQU8sc0JBQVEsYUFBYTtBQUFBLEVBQzFCLFNBQVMsQ0FBQyxJQUFJLEdBQUcsUUFBUSxDQUFDO0FBQUEsRUFDMUIsTUFBTTtBQUNSLENBQUM7IiwKICAibmFtZXMiOiBbXQp9Cg==
